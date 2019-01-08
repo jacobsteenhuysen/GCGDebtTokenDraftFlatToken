@@ -1,0 +1,19 @@
+{
+    "name": "gcg-debt-token",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "lint": "eslint test scripts",
+      "coverage": "solidity-coverage",
+      "test": "truffle test",
+      "compile": "truffle compile"
+    },
+    "dependencies": {
+      "openzeppelin-solidity": "2.0.0",
+      "solc": "^0.5.1"
+    },
+    "yargs": {
+      "parse-numbers": false
+    }
+  }
+  
